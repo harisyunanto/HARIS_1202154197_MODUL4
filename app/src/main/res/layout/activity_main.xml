@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="40dp"
+    tools:context="android.example.com.HarisYunanto_1202154197_Modul4.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="TP Modul 4 \n Haris Yunanto \n 1202154197"/>
+
+    <Button
+        android:id="@+id/button_listnama"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LIST NAMA MAHASISWA"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/button_pencarigambar"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PENCARI GAMBAR"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
